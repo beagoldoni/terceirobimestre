@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #FF862A;
-    --alto-contraste-fundo: #000000;
-    --alto-contraste-texto: #ffffff;
-    --alto-contraste-link: #ffd700;
+    --laranja-claro: #301280;
+    --alto-contraste-fundo: #c7cfd1;
+    --alto-contraste-texto: #8b7f7f;
+    --alto-contraste-link: #c0923e;
 }
 
 body {
@@ -30,8 +30,6 @@ section {
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/4965007.jpg');
-    /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
     border-radius: 80px;
@@ -39,10 +37,6 @@ section {
     height: 606px;
     padding: 40px;
     margin: 0 auto;
-}
-
-/* posicionamento para a imagem à direita */
-.img-inicio {
     position: absolute;
     right: 0;
     top: 18rem;
